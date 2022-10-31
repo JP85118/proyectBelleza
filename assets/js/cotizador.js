@@ -49,10 +49,10 @@ function mostrarCotizacion(data){
   //const textnode = document.createTextNode('hola')
   answer.innerHTML = `
   <p class="main-price">Precio: <span>${PRICE}</span></p>
-  <p>Precio más alto del día:: <span>${HIGHDAY}</span></p>
-  <p>Precio más bajo del día: <span>${LOWDAY}</span></p>
-  <p>Variación últimas 24 horas: <span>${CHANGEPCT24HOUR}%</span></p>
-  <p>Última Actualización: <span>${LASTUPDATE}</span></p>
+  <p class="price-text">Precio más alto del día:: <span>${HIGHDAY}</span></p>
+  <p class="price-text">Precio más bajo del día: <span>${LOWDAY}</span></p>
+  <p class="price-text">Variación últimas 24 horas: <span>${CHANGEPCT24HOUR}%</span></p>
+  <p class="price-text">Última Actualización: <span>${LASTUPDATE}</span></p>
   `;
   /* containerAnswer.appendChild(answer) */
   containerAnswer.innerHTML = answer.innerHTML;

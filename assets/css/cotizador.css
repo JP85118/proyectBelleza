@@ -160,3 +160,14 @@ body{
   }
 }
 
+/*  text mostrarCotizxacion */
+
+.main-price{
+  text-align: center;
+  font-weight: 700;
+}
+
+.price-text{
+  text-align: center;
+  font-weight: 700;
+}
