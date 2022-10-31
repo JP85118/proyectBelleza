@@ -2,7 +2,7 @@ const $form = document.querySelector("#form_search");
 const $moneda = document.querySelector("#moneda");
 const $criptos = document.querySelector("#criptomonedas");
 const $containerForm = document.querySelector(".cotizador__form");
-let containerAnswer = document.querySelector("#cripto__respuesta");
+let containerAnswer = document.querySelector(".cripto__respuesta");
 const $objSearch = { moneda: "", criptomonedas: "" };
 
 let urlData =
@@ -46,7 +46,7 @@ function mostrarCotizacion(data){
   const {PRICE, HIGHDAY, LOWDAY, CHANGEPCT24HOUR, LASTUPDATE} = data;
   const answer = document.createElement('div');
   answer.classList.add('display-info');
-  const textnode = document.createTextNode('hola')
+  //const textnode = document.createTextNode('hola')
   answer.innerHTML = `
   <p class="main-price">Precio: <span>${PRICE}</span></p>
   <p>Precio más alto del día:: <span>${HIGHDAY}</span></p>
@@ -54,8 +54,8 @@ function mostrarCotizacion(data){
   <p>Variación últimas 24 horas: <span>${CHANGEPCT24HOUR}%</span></p>
   <p>Última Actualización: <span>${LASTUPDATE}</span></p>
   `;
-  textnode.appendChild(containerAnswer, containerAnswer.childNodes[0]);
-  answer.appendChild(textnode);
+  /* containerAnswer.appendChild(answer) */
+  containerAnswer.innerHTML = answer.innerHTML;
   console.log(answer);
 }
 
