@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Belleza</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <!-- inicio de seccion del header -->
+  <header class="header">
+    <a href="#home" class="header__logo"><img src="./assets/img/lenio_logo.png" class="logo__img" alt="logo"></a>
+    <h1 class="header__title">Lenio</h1>
+    <nav class="header__nav">
+      <a href="#inico" class="nav__link">Inicio</a>
+      <a href="#servicios" class="nav__link">Servicios</a>
+      <a href="#productos" class="nav__link">Productos</a>
+      <a href="#contacto" class="nav__link">Contacto</a>
+      <a href="./cotizador.html" class="nav__link">Cotizador</a>
+    </nav>
+  </header>
+  <!-- final de la seccion del header -->
+
+  <main class="main" id="inicio">
+    <!-- inico del slider -->
+    <div class="slider">
+      <div class="slider__container container">
+        <img src="./assets/img/leftarrow.svg" class="slider__arrow" alt="leftarrow" id="before">
+
+        <div class="slider__body slider__body--show" data-id="1">
+          <figure class="slider__picture">
+            <img src="./assets/img/peluqueria.jpg" class="slider__img" alt="peluqueria">
+          </figure>
+        </div>
+
+        <div class="slider__body" data-id="2">
+          <figure class="slider__picture">
+            <img src="./assets/img/baile.jpg" class="slider__img" alt="peluqueria">
+          </figure>
+        </div>
+
+        <div class="slider__body" data-id="3">
+          <figure class="slider__picture">
+            <img src="./assets/img/fotografia.jpg" class="slider__img" alt="peluqueria">
+          </figure>
+        </div>
+
+        <div class="slider__body" data-id="4">
+          <figure class="slider__picture">
+            <img src="./assets/img/manicure.jpg" class="slider__img" alt="peluqueria">
+          </figure>
+        </div>
+
+        <div class="slider__body" data-id="5">
+          <figure class="slider__picture">
+            <img src="./assets/img/musica.jpg" class="slider__img" alt="peluqueria">
+          </figure>
+        </div>
+
+        <div class="slider__body" data-id="6">
+          <figure class="slider__picture">
+            <img src="./assets/img/spa.jpg" class="slider__img" alt="peluqueria">
+          </figure>
+        </div>
+
+        <img src="./assets/img/rightarrow.svg" class="slider__arrow" alt="leftarrow" id="next">
+      </div>
+    </div>
+    <!-- final del slider -->
+
+    <!-- inicio de about -->
+    <section class="about">
+      <div class="about__info">
+        <div class="about__text">
+          <h4 class="about__subtitle">BIENVENODOS A</h4>
+          <h2 class="about__title">Lenio</h2>
+          <p class="about__paragraph">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa soluta dolor deserunt ad sunt voluptatum
+            obcaecati. Eveniet pariatur molestias repudiandae aspernatur cumque, doloribus incidunt nobis fugit fuga
+            architecto reprehenderit cupiditate!
+          </p>
+          <p class="about__paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor incidunt earum magnam, quia fugit cum fuga
+            nulla labore architecto ea recusandae doloribus modi dicta deleniti, dolore voluptatum facilis. Accusamus,
+            odit.
+          </p>
+          <div class="about__link">
+            <a href="#" class="link"> ver mas</a>
+          </div>
+        </div>
+        <figure class="about__picture">
+          <img src="./assets/img/Foto_insti.jpg" class="about__img" alt="foto">
+        </figure>
+      </div>
+      <hr class="hr1">
+      <div class="container__services" id="servicios">
+        <h5 class="service__title">Conoce</h5>
+        <h2 class="service__subtitle">Nuestros Servicios</h2>
+        <div class="container__service">
+          <div class="service">
+            <div class="service__card">
+              <img src="./assets/img/yoga.jpg" class="service__img" alt="yoga">
+              <p class="service__paragraph">Yoga</p>
+            </div>
+          </div>
+
+          <div class="service">
+            <div class="service__card">
+              <img src="./assets/img/spa-.png" class="service__img" alt="spa">
+              <p class="service__paragraph">Servicio de Spa</p>
+            </div>
+          </div>
+
+          <div class="service">
+            <div class="service__card">
+              <img src="./assets/img/peluqueria-.jpg" class="service__img" alt="peluqueria">
+              <p class="service__paragraph">Peluqueria</p>
+            </div>
+          </div>
+
+          <div class="service">
+            <div class="service__card">
+              <img src="./assets/img/fotografia-.jpg" class="service__img" alt="fotografia">
+              <p class="service__paragraph">Fotografia</p>
+            </div>
+          </div>
+
+          <div class="service">
+            <div class="service__card">
+              <img src="./assets/img/baile-.jpg" class="service__img" alt="baile">
+              <p class="service__paragraph">Danza</p>
+            </div>
+          </div>
+
+          <div class="service">
+            <div class="service__card">
+              <img src="./assets/img/cuidado_personal.jpg" class="service__img" alt="cuidado_personal">
+              <p class="service__paragraph">Productos de cuidado personal</p>
+            </div>
+          </div>
+
+          <div class="service">
+            <div class="service__card">
+              <img src="./assets/img/Publicidad.jpg" class="service__img" alt="Publicidad">
+              <p class="service__paragraph">Publicidad</p>
+            </div>
+          </div>
+
+          <div class="service">
+            <div class="service__card">
+              <img src="./assets/img/teatro.jpg" class="service__img" alt="Teatro">
+              <p class="service__paragraph">Teatro</p>
+            </div>
+          </div>
+
+          <div class="service">
+            <div class="service__card">
+              <img src="./assets/img/tatuaje.jpg" class="service__img" alt="cuidado_personal">
+              <p class="service__paragraph">Dermo pigmentacion (Tatto)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- final de about -->
+    <hr class="hr1">
+    <!-- inicio de productos -->
+    <section class="products" id="productos">
+      <h2 class="product__title"> Nuestros Productos</h2>
+      <div class="container__product">
+        <div class="product">
+          <a href="https://www.schwarzkopf-professional.com/co/es/color/igora.html" target="_blank"
+            class="product__link">
+            <img src="./assets/img/igora.png" class="product__img" alt="igora">
+          </a>
+        </div>
+
+        <div class="product">
+          <a href="https://www.loreal.com/es-co/colombia/" target="_blank" class="product__link">
+            <img src="./assets/img/loreal.png" class="product__img" alt="loreal">
+          </a>
+        </div>
+
+        <div class="product">
+          <a href="https://www.wella.com/mx" target="_blank" class="product__link">
+            <img src="./assets/img/wella.png" class="product__img" alt="wella">
+          </a>
+        </div>
+
+        <div class="product">
+          <a href="https://www.americancrew.com/" target="_blank" class="product__link">
+            <img src="./assets/img/American.png" class="product__img" alt="American">
+          </a>
+        </div>
+
+        <div class="product">
+          <a href="https://marcel-france.com/" target="_blank" class="product__link">
+            <img src="./assets/img/marcel.jpg" class="product__img" alt="marcel-france">
+          </a>
+        </div>
+
+        <div class="product">
+          <a href="https://www.lmar.com.co/" target="_blank" class="product__link">
+            <img src="./assets/img/lmar.png" class="product__img" alt="lmar">
+          </a>
+        </div>
+
+        <div class="product">
+          <a href="https://naissant.com/" target="_blank" class="product__link">
+            <img src="./assets/img/naissan.png" class="product__img" alt="naissant">
+          </a>
+        </div>
+
+        <div class="product">
+          <a href="https://tiendacolombia.recamier.com/" target="_blank" class="product__link">
+            <img src="./assets/img/recamier.jpg" class="product__img" alt="recamier">
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- final de productos -->
+
+    <!-- inicio de contacto -->
+    <section class="contact" id="contacto">
+      <h4 class="contact__title">Contáctanos y encuentra tu</h4>
+      <h2 class="contact__subtitle">Estilo</h2>
+      <div class="contact__wrapper">
+        <div class="contact__form">
+          <form class="form">
+            <p class="form__paragraph">
+              <label class="form__label">Nombre</label>
+              <input type="text" class="form__input">
+            </p>
+            <p class="form__paragraph">
+              <label class="form__label">Apellido</label>
+              <input type="text" class="form__input">
+            </p>
+            <p class="form__paragraph">
+              <label class="form__label">Correo Electrónico</label>
+              <input type="email" class="form__input">
+            </p>
+            <p class="form__paragraph">
+              <label class="form__label">Teléfono</label>
+              <input type="tel" class="form__input">
+            </p>
+            <p class="form__paragraph block">
+              <label class="form__label">¿Cómo podemos ayudarte?</label>
+              <textarea cols="30" rows="10" class="form__textarea"></textarea>
+            </p>
+            <p class="form__paragraph block">
+              <button type="submit" class="form__btn">
+                Enviar
+              </button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="container__map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63612.27566941139!2d-74.38902792089843!3d4.809984000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f7c5fb29436d7%3A0xee2cd73daf20759c!2sFacatativ%C3%A1%2C%20Cundinamarca!5e0!3m2!1ses-419!2sco!4v1667101151377!5m2!1ses-419!2sco"
+        width="900" height="650" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container__footer">
+      <div class="container__nav">
+        <a href="#inico" class="nav__footer">Inicio</a>
+        <a href="#servicios" class="nav__footer">Servicios</a>
+        <a href="#productos" class="nav__footer">Productos</a>
+        <a href="./cotizador.html" class="nav__footer">Cotizador</a>
+      </div>
+      <div class="container__icon">
+        <a href="#facebook" class="icon">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="#instagram" class="icon">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://github.com/JP85118?tab=repositories" class="icon" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <div class="container__paragraph">
+        <p class="paragraph__footer">By JP85118  &reg;</p>
+        <p class="paragraph__footer">Lenio.com</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/678c90d17e.js" crossorigin="anonymous"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/cotizador.css">
+  <link rel="shortcut icon" href="./assets/img/cotizador_img/favicon.ico" type="image/x-icon">
+  <title>Cotizador Criptomonedas</title>
+</head>
+<body>
+  <section class="cotizador">
+    <h1 class="cotizador__title">Cotizador de Criptomonedas</h1>
+    <div class="cotizador__form">
+      <form action="" id="form_search" class="form">
+        <div class="cotizador__select">
+          <select name="moneda" id="moneda" class="form__monedas">
+            <option value="" class="moneda">Elige tu moneda</option>
+            <option value="USD" class="moneda">Dolar Estadounidense</option>
+            <option value="EUR" class="moneda">Euros</option>
+            <option value="GBP" class="moneda">Libras</option>
+            <option value="COL" class="moneda">Peso Colombiano</option>
+          </select>
+  
+          <select name="criptomonedas" id="criptomonedas" class="form__cripto">
+            <option value="" class="cripto__opcion">Elige tu criptomoneda</option>
+          </select>
+        </div>
+
+        <div class="cripto__btn">
+          <input class="btn"  type="submit" value="Cotizar">
+        </div>
+
+        <div class="cripto__respuesta" id="cripto__respuesta"></div>
+
+<!--         <div class="lds-roller" style="display: none;"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        </div> -->
+        <!-- <div class="display-info">
+                <p class="main-price">Precio: <span>$433.33</span></p>
+                <p>Precio más alto del día:: <span>$433.33</span></p>
+                <p>Precio más bajo del día: <span>$433.33</span></p>
+                <p>Variación últimas 24 horas: <span>$433.33</span></p>
+                <p>Última Actualización: <span>$433.33</span></p>
+              </div> -->
+      </form>
+    </div>
+  </section>
+
+  <script src="./assets/js/cotizador.js"></script>
+</body>
+</html>
